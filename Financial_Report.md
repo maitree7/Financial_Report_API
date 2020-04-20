@@ -71,32 +71,51 @@ AGG             |   0.019408
 
 
 Visualization of Monte Carlo Simulation of 500 runs and 30 years for the 60/40 portfolio and plot the results.
+
 ![Monte_Carlo](Images/Monte_carlo.PNG)
 
-
-Visualization of the ending cumulative returns from the Monte Carlo simulation and calculate the interval values for a 90% confidence interval.
-
+*90% Confidence Interval from the Monte Carlo Simulation*
 
 Using the ending cumulative returns, plot a histogram of the results and plot the 90% confidence interval as vertical lines on the histogram.
+
 ![Histogram](Images/Histogram.PNG)
 
-Retirement Analysis
-Use the Monte Carlo simulation data to answer the following questions:
-
+**Retirement Analysis**
 
 What are the expected cumulative returns at 30 years for the 10th, 50th, and 90th percentiles?
+
+*Expected Cumulative Returns at 30 years*
+*Percentile*    | *Cum returns*
+----------------|:---------------
+10th percentile |   0.72
+50th percentile |   5.56  
+90th percentile |   39.22
 
 
 Given an initial investment of $20,000, what is the expected return in dollars at the 10th, 50th, and 90th percentiles?
 
+*Expected Portfolio Returns at 30 years*
+
+*Percentile*    | *Portfolio returns*
+----------------|:---------------
+10th percentile |   $14400.0
+50th percentile |   $111200.0
+90th percentile |   $784400.0
+
 
 Given the current projected annual income from the Plaid analysis, will a 4% withdrawal rate meet or exceed that value at the 10th percentile? Note: This is basically determining if retirement income is equivalent to current income.
 
+The current projected annual income is 6085$, 4% withdraw rate from the retirement portfolio is 576$ doesn't meet the value at the 10th percentile
 
 How would a 50% increase in the initial investment amount affect the 4% retirement withdrawal? In other words, what happens if the initial investment had been bigger?
 
+4% withdrawal rate from the retirement portfolio 865.28 will not meet the value of projected income
 
 (Optional Challenge) Use the Monte Carlo data and calculate the cumulative returns at the 5%, 50%, and 95% quartiles and plot this data as a line chart to see how the cumulative returns change over the life of the investment.
+
+![Projected_returns](Images/Projected_Returns.PNG)
+
+
 
 
 
