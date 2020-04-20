@@ -104,12 +104,13 @@ Given an initial investment of $20,000, what is the expected return in dollars a
 
 
 Given the current projected annual income from the Plaid analysis, will a 4% withdrawal rate meet or exceed that value at the 10th percentile? Note: This is basically determining if retirement income is equivalent to current income.
-
+```
 The current projected annual income is 6085$, 4% withdraw rate from the retirement portfolio is 576$ doesn't meet the value at the 10th percentile
-
+```
 How would a 50% increase in the initial investment amount affect the 4% retirement withdrawal? In other words, what happens if the initial investment had been bigger?
-
+```
 4% withdrawal rate from the retirement portfolio 865.28 will not meet the value of projected income
+```
 
 (Optional Challenge) Use the Monte Carlo data and calculate the cumulative returns at the 5%, 50%, and 95% quartiles and plot this data as a line chart to see how the cumulative returns change over the life of the investment.
 
