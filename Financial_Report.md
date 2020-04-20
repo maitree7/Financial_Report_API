@@ -22,7 +22,7 @@ Total expenses were $31,935.72 out of which 64.3% is for the Transfers and lowes
 
 #### NUMBER OF TRANSACTIONS PER MONTH
 
-![Transactions_Per_Month][Images/Transaction_per_Category.PNG)
+![Transaction_per_category][Images/Transaction_per_category.PNG)
 
 Food & Drinks have the highest number of transactions - 15 while Recreations & Shops have the lowest number of transactions - 3 each
 
