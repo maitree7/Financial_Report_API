@@ -40,4 +40,63 @@ Food & Drinks have the highest number of transactions - 15 while Recreations & S
 
 Highest expenses are accounted in the month of March, while the lowest expenses are for January
 
+### RETIREMENT PLANNING
+
+Use of IEX API (sandbox transactions) to fetch historical closing prices for a retirement portfolio and then run Monte Carlo simulations to project the portfolio performance at 30 years. 
+
+#### Monte Carlo Simulation
+
+1.Use the IEX API to fetch historical closing prices for a traditional 60/40 portfolio using the SPY and AGG tickers to represent the 60% stocks (SPY) and 40% bonds (AGG)
+
+##### Closing Price
+
+**Stock**       | **Closing Price**
+----------------|:---------------
+SPY             |     295.29 
+AGG             |     122.97
+
+##### Average Daily Retruns
+
+**Stock**       | **Avg daily returns**
+----------------|:---------------
+SPY             |       0.000279
+AGG             |       0.000535
+
+##### Volatility (Standard Deviation)
+
+**Stock**       | **Std Dev**
+----------------|:---------------
+SPY             |   0.028366
+AGG             |   0.019408
+
+
+Visualization of Monte Carlo Simulation of 500 runs and 30 years for the 60/40 portfolio and plot the results.
+![Monte_Carlo](Images/Monte_carlo.PNG)
+
+
+Visualization of the ending cumulative returns from the Monte Carlo simulation and calculate the interval values for a 90% confidence interval.
+
+
+Using the ending cumulative returns, plot a histogram of the results and plot the 90% confidence interval as vertical lines on the histogram.
+![Histogram](Images/Histogram.PNG)
+
+Retirement Analysis
+Use the Monte Carlo simulation data to answer the following questions:
+
+
+What are the expected cumulative returns at 30 years for the 10th, 50th, and 90th percentiles?
+
+
+Given an initial investment of $20,000, what is the expected return in dollars at the 10th, 50th, and 90th percentiles?
+
+
+Given the current projected annual income from the Plaid analysis, will a 4% withdrawal rate meet or exceed that value at the 10th percentile? Note: This is basically determining if retirement income is equivalent to current income.
+
+
+How would a 50% increase in the initial investment amount affect the 4% retirement withdrawal? In other words, what happens if the initial investment had been bigger?
+
+
+(Optional Challenge) Use the Monte Carlo data and calculate the cumulative returns at the 5%, 50%, and 95% quartiles and plot this data as a line chart to see how the cumulative returns change over the life of the investment.
+
+
 
