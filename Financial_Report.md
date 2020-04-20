@@ -20,9 +20,9 @@ Travel          |       35.19
 
 Total expenses were $31,935.72 out of which 64.3% is for the Transfers and lowest expenses are for Travel 0.1% 
 
-#### NUMBER OF TRANSACTIONS PER MONTH
+#### NUMBER OF TRANSACTIONS PER CATEGORY
 
-![Transaction_per_category][Images/Transaction_per_category.PNG)
+![Transaction_per_category](Images/Transaction_per_category.PNG)
 
 Food & Drinks have the highest number of transactions - 15 while Recreations & Shops have the lowest number of transactions - 3 each
 
