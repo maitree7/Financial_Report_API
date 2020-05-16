@@ -2,8 +2,6 @@
 
 Implemented budgeting using Plaid API and the Monte Carlo Simulation for forcasting the Retirement Portfolio return using IEX Finance API
 
-![Financial Planner](Images/financial-planner.png)
-
 ## Background
 
 The consumer division of Harold's company has decided to offer budgeting and financial planning services to customers. They want to build a report for customers that links to their banking and investment accounts and automatically refreshes the data and charts on login. However, some of the calculations are tricky, and Harold could really use some help connecting the accounts and simulating the retirement investment projections. Luckily, there are APIs available to obtain account transactions and fetch retirement portfolio prices.
@@ -18,9 +16,9 @@ We will help Harold complete the following tasks:
 
 ### Files
 
-[Budget Starter Notebook](Starter_Code/account_summary.ipynb)
+[Budget Starter Notebook](account_summary.ipynb)
 
-[Retirement Planner Starter Notebook](Starter_Code/portfolio_planner.ipynb)
+[Retirement Planner Starter Notebook](portfolio_planner.ipynb)
 
 ### BUDGET ANALYSIS
 
